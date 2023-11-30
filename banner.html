@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" />
+    <title>
+        Welcome to Digital Shinka Online!!
+    </title>
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="Welcome to Digital Shinka Online!!">
+
+    <link rel="stylesheet" type="text/css" href="/inc/css/default.css?ver=202303291050?2022080416" />
+    <link rel="stylesheet" type="text/css" href="/inc/css/common.css?2022080416" />
+    <link rel="stylesheet" type="text/css" href="/inc/css/top.css?2022080416" />
+    <link rel="stylesheet" type="text/css" href="/inc/css/footer.css?ver=20230329?2022080416" />
+
+    
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YFSH910606"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YFSH910606');
+        gtag('config', 'UA-227510444-1');
+    </script>
+
+    <script type="text/javascript">
+        function OpenBillion() {
+            document.getElementById('popup_billion').style.display = "block";
+        }
+        function CloseBillion() {
+            document.getElementById('popup_billion').style.display = "none";
+        }
+        function CloseOutBillion() {
+            document.getElementById('popup_billion').style.display = "none";
+            setCookie('popup_Billion', 'true');
+        }
+    </script>
+
+    <script type="text/javascript" src="/inc/script/jquery.js?2022080416"></script>
+    <script type="text/javascript" src="/inc/script/top.js?2022080416"></script>
+    <script type="text/javascript" src="/inc/script/loginMgr.js?2022080416"></script>
+    <script type="text/javascript" src="/inc/script/common.js?2022080416"></script>
+
+    <style type="text/css">
+        * { margin: 0; padding: 0; border: none; }
+        html { padding: 0; margin: 0; overflow-x: hidden; overflow-y: hidden; scrollbars: no; border: none; }
+    </style>
+</head>
+
+<body>
+    <form name="form1" method="post" action="GameLauncher.aspx" id="form1">
+        <div>
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODk4Nzk3NDQ4D2QWAgIBD2QWAgICD2QWAgIBDxYCHgdWaXNpYmxlZ2Rk" />
+        </div>
+
+        <script type="text/javascript">
+            var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
+            }
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+        </script>
+
+        <div id="wrap">
+            <a href="" target="_blank">
+                <img src="https://digital-shinka.github.io/Site/banner2.bmp" />
+            </a>
+        </div>
+    </form>
+
+    <div style="position:relative; width:1000px; margin: 0px auto; text-align:center; display:none; z-index:100;" id="popup_billion">
+        <div style="width:700px; height:700px; top:160px; left:210px; position:absolute; border:0px solid black;">
+            <img src="/images/event/2014/03/27/20140326_Main_popup.png" alt="" usemap="#map_billion" />
+            <map id="Map1" name="map_billion">
+                <area shape="rect" coords="629,11,652,38" href="#" onclick="CloseBillion();" alt="닫기" />
+                <area shape="rect" coords="29,262,228,325" href="http://youtu.be/fxQG5aj44_8" target="_blank" alt="빌리언 뮤직비디오 보기" />
+                <area shape="rect" coords="660,0,700,40" href="https://www.facebook.com/move.entertainment.1" target="_blank" alt="facebook" />
+                <area shape="rect" coords="660,40,700,80" href="http://www.youtube.com/user/MoveEntertain" target="_blank" alt="유투브" />
+                <area shape="rect" coords="520,666,630,680" href="#" onclick="CloseOutBillion();" alt="오늘 그만보기" />
+            </map>
+        </div>
+    </div>
+
+    <span itemscope="" itemtype="http://schema.org/Organization">
+        <link itemprop="url" href="https://www.digimonmasters.com">
+        <a itemprop="sameAs" href="https://www.facebook.com/digimonmasterskorea/"></a>
+        <a itemprop="sameAs" href="https://www.youtube.com/user/moveentertainment1/featured?view_as=subscriber"></a>
+    </span>
+</body>
+
+</html>

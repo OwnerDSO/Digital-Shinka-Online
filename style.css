@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-image {
+  width: 500px; /* Defina a largura desejada para a imagem */
+  height: 500px; /* Defina a altura desejada para a imagem */
+}

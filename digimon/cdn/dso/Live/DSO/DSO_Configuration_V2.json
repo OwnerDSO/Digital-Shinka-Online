@@ -1,0 +1,134 @@
+{
+  "ServerInfo": {
+    "Maintenance": false,
+    "Message": {
+      "Title": "Digital Shinka Online In Development.",
+      "Msg": "The server is undergoing inspection or updates.\nConnect to <https://discord.gg/vtNnzfSF for more information."
+    }
+  },
+  "PatchInfo": {
+    "DownloadUrl": "https://digital-shinka.github.io/Site/UpdatePatch/",
+    "MinPatchVersion": 1,
+    "PatchVersion":80
+  },
+  "LanuncherInfo": {
+    "DownloadPath": "https://digital-shinka.github.io/Site/Launcher/",
+    "CurrentVersion": 322,
+    "ExeFileName": "DSOLauncher.exe",
+    "RunExeFileName": "GDMO.exe",
+    "VersionList": [
+      {
+        "Version": 310,
+        "DownloadFile": "Launcher_310.zip"
+      }
+	  ,
+	  {
+        "Version": 311,
+        "DownloadFile": "Launcher_311.zip"
+      }
+	  ,
+	  {
+        "Version": 312,
+        "DownloadFile": "Launcher_312.zip"
+      }
+	  ,
+	  {
+        "Version": 313,
+        "DownloadFile": "Launcher_313.zip"
+      }
+	  ,
+	  {
+        "Version": 314,
+        "DownloadFile": "Launcher_314.zip"
+      }
+	   ,
+	  {
+        "Version": 315,
+        "DownloadFile": "Launcher_315.zip"
+      }
+	  ,
+	  {
+        "Version": 316,
+        "DownloadFile": "Launcher_316.zip"
+      }
+	  ,
+	  {
+        "Version": 317,
+        "DownloadFile": "Launcher_317.zip"
+      }
+	   ,
+	  {
+        "Version": 318,
+        "DownloadFile": "Launcher_318.zip"
+      }
+	   ,
+	  {
+        "Version": 319,
+        "DownloadFile": "Launcher_319.zip"
+      }
+      ,
+      {
+          "Version": 320,
+          "DownloadFile": "Launcher_320.zip"
+        }
+        ,
+      {
+          "Version": 321,
+          "DownloadFile": "Launcher_321.zip"
+        }
+        ,
+        {
+            "Version": 322,
+            "DownloadFile": "Launcher_322.zip"
+          }
+    ]
+  },
+  "UMInfo": {
+    "DownloadPath": "https://digital-shinka.github.io/Site/UpdateManager/",
+    "CurrentVersion": 10,
+    "ExeFileName": "UpdateManager.exe",
+    "RunExeFileName": "DSOLauncher.exe",
+    "VersionList": [
+      {
+        "Version": 8,
+        "DownloadFile": "UM_8.zip"
+      }
+	  ,
+	  {
+        "Version": 9,
+        "DownloadFile": "UM_9.zip"
+      }
+	   ,
+	  {
+        "Version": 10,
+        "DownloadFile": "UM_10.zip"
+      }
+    ]
+  },
+  "Redist": {
+    "Execute": "vcredist_x86.exe",
+    "Command": "/install /passive /norestart",
+    "Registry": [
+      {
+        "Reg": "SOFTWARE\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
+      },
+      {
+        "Reg": "SOFTWARE\\WOW6432Node\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
+      }
+    ]
+  },
+  "RumbleConfig": "https://digital-shinka.github.io/digimon/cdn/rumble/live/RumbleConfig.json",
+  "MainUrl": [
+    {
+      "TypeName": "GSP",
+      "HomePageUrl": "https://discord.gg/vtNnzfSF",
+      "GameDownloadUrl": "https://discord.gg/vtNnzfSF",
+      "MainPageUrl": "https://digital-shinka.github.io/Site/main.html",
+      "BanerUrl": "https://digital-shinka.github.io/Site/banner.html",
+      "ClientIP": "game.digitalshinkaonline.com",
+	    "ClientPort": "7605",
+      "Unlock":false
+	  
+    }
+  ]
+}
